@@ -1,0 +1,28 @@
+body {
+  max-width: 700px;
+  height: 600px;
+  margin: auto;
+  justify-content: center;
+  border: 1px dotted blue;
+  background-color: whitesmoke;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  background-color: skyblue;
+}
+.button {
+    display: inline-block;
+    margin-left: 135px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: #000;
+    margin-bottom: 20px;
+  }

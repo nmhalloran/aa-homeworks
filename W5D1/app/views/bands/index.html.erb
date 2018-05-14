@@ -1,0 +1,8 @@
+<ol> <% @bands.each.with_index do |band, idx| %>
+      <li> <%= band.name %> </li>
+      <form action= "/bands/<%= band.id %>" method="post">
+        <input type="hidden" name="_method" value="delete">
+        <input type="submit" value="DELETE BAND">
+      </form>
+    <% end %>
+</ol>
